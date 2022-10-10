@@ -1,4 +1,266 @@
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 1920px) {
+    .container {
+      margin: 1em 2em;
+    }
+
+    body{
+        background-image: url(./img/background.gif);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    #containergeral{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 10px outset rgba(81, 163, 34, 0.301);
+        border-radius: 2.5rem;
+        opacity: 0.95;
+        width: 70rem;
+        height: 50rem;
+        align-items: center;
+        margin-top: 5rem;
+    
+    }
+    
+    #container1 {
+        display: flex;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: 'Gemunu Libre', sans-serif;
+    
+    
+    }
+    
+    #container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        width: 50%;
+        height: 80%;
+    
+    }
+    
+    #opçoes{
+        height: 3rem;
+        width: 20rem;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-weight: bold;
+    
+    }
+    
+    #mensagemPrincipal{
+        height: 8rem;
+        width: 20rem;
+        text-align: center;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-size: 1rem;
+    
+    
+    }
+    
+    #numeros{
+        height: 2rem;
+        width: 15rem;
+        font-size: 15px;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-weight: bold;
+        text-align: center;
+    
+    
+    }
+    
+    #mensagemCodificada{
+        height: 8rem;
+        width: 20rem;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    
+    }
+    
+    .button{
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    
+    .container-code{
+        margin-bottom: 1rem;
+        display: flex;
+        gap: 2rem;
+    }
+    
+    #codificar{
+        font-family: 'Gemunu Libre', sans-serif;
+        height: 2rem;
+        width: 9rem;
+    
+    }
+    
+    #decodificar{
+        font-family: 'Gemunu Libre', sans-serif;
+        height: 2rem;
+        width: 9rem;
+    
+    }
+    
+    .container-copy{
+        margin-bottom: 6rem;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    #copy{
+        font-family: 'Gemunu Libre', sans-serif;
+        height: 2rem;
+        width: 9rem;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .container {
+      margin: 1em 2em;
+    }
+
+    body{
+        background-image: url(./img/background.gif);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    #containergeral{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 10px outset rgba(81, 163, 34, 0.301);
+        border-radius: 2.5rem;
+        opacity: 0.95;
+        width: 50rem;
+        height: 40rem;
+        align-items: center;
+        margin-top: 3rem;
+    
+    }
+    
+    #container1 {
+        display: flex;
+        margin-top: 1rem;
+        font-size: 2rem;
+        font-family: 'Gemunu Libre', sans-serif;
+    
+    
+    }
+    
+    #container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0.2rem;
+        width: 50%;
+        height: 70%;
+        border: solid black;
+    
+    }
+    
+    #opçoes{
+        height: 3rem;
+        width: 20rem;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-weight: bold;
+    
+    }
+    
+    #mensagemPrincipal{
+        height: 15rem;
+        width: 20rem;
+        text-align: center;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-size: 1rem;
+    
+    
+    }
+    
+    #numeros{
+        height: 2rem;
+        width: 15rem;
+        font-size: 15px;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-weight: bold;
+        text-align: center;
+    
+    
+    }
+    
+    #mensagemCodificada{
+        height: 8rem;
+        width: 20rem;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    
+    }
+    
+    .button{
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    
+    .container-code{
+        margin-bottom: 1rem;
+        display: flex;
+        gap: 2rem;
+    }
+    
+    #codificar{
+        font-family: 'Gemunu Libre', sans-serif;
+        height: 2rem;
+        width: 9rem;
+    
+    }
+    
+    #decodificar{
+        font-family: 'Gemunu Libre', sans-serif;
+        height: 2rem;
+        width: 9rem;
+    
+    }
+    
+    .container-copy{
+        margin-bottom: 6rem;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    #copy{
+        font-family: 'Gemunu Libre', sans-serif;
+        height: 2rem;
+        width: 9rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
     .container {
       margin: 1em 2em;
     }
@@ -21,10 +283,10 @@
     border: 10px outset rgba(81, 163, 34, 0.301);
     border-radius: 2.5rem;
     opacity: 0.95;
-    width: 30rem;
+    width: 22rem;
     height: 40rem;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
 
 }
 
@@ -125,5 +387,136 @@
     font-family: 'Gemunu Libre', sans-serif;
     height: 2rem;
     width: 9rem;
+}
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+      margin: 1em 2em;
+    }
+
+  body{
+    background-image: url(./img/background.gif);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#containergeral{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 10px outset rgba(81, 163, 34, 0.301);
+    border-radius: 2.5rem;
+    opacity: 0.95;
+    width: 16rem;
+    height: 30rem;
+    align-items: center;
+    margin-top: 2.5rem;
+
+}
+
+#container1 {
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: 'Gemunu Libre', sans-serif;
+
+
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 50%;
+    height: 80%;
+
+}
+
+#opçoes{
+    height: 2rem;
+    width: 16rem;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+
+}
+
+#mensagemPrincipal{
+    height: 8rem;
+    width: 15rem;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 1rem;
+
+
+}
+
+#numeros{
+    height: 2rem;
+    width: 10rem;
+    font-size: 15px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+#mensagemCodificada{
+    height: 8rem;
+    width: 13rem;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.container-code{
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+#codificar{
+    font-family: 'Gemunu Libre', sans-serif;
+    height: 2rem;
+    width: 5rem;
+
+}
+
+#decodificar{
+    font-family: 'Gemunu Libre', sans-serif;
+    height: 2rem;
+    width: 5rem;
+
+}
+
+.container-copy{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#copy{
+    font-family: 'Gemunu Libre', sans-serif;
+    height: 2rem;
+    width: 7rem;
 }
 }
