@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Codificação & Decoficação</title>
+</head>
+<body>
+
+    
+
+
+<div id="containergeral"> 
+    <div id="container1">
+        <h1> Codificação & Decodificação</h1>
+    </div>
+
+    <form id="container2">
+
+        <select id="opçoes">
+            <option value="Selecione aqui"> Selecione aqui! </option>
+            <option value="cifraDeCesar">Cifra de César</option>
+            <option value="base64">Base 64</option>
+        </select>
+        <br>
+        <br>
+           <input type="text" id="mensagemPrincipal" placeholder="Escreva aqui..."> <br>
+
+        <br>
+
+            <input type="number" id="numeros" placeholder="ESCOLHA SEU NÚMERO" min="1" max="26"><br>
+        <br>
+        <label>
+            <textarea type="text" id="mensagemCodificada" placeholder="Sua mensagem aparecerá aqui."></textarea> <br>
+        </label>
+        <div class='button'>
+            <br>
+
+            <div class="container-code">
+            <input onclick="codificacaoBase64()" type="button" id='codificar' name='button-Cesar' value="CODIFICAR"  checked>
+            <input onclick="decodificacaoBase64()" type="button" id='decodificar' name='button-Cesar' value="DECODIFICAR"  checked>
+            </div>
+            <br>
+            <div class="container-copy">
+            <input type="button" id='copy' name='button-copy' value="COPIAR TEXTO"  checked>
+            </div>
+        </div>
+        
+        
+    </form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
