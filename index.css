@@ -1,8 +1,10 @@
+/* Responsividade 1920px */
+
 @media screen and (max-width: 1920px) {
     .container {
       margin: 1em 2em;
     }
-
+/* Corpo da pag. */
     body{
         background-image: url(./img/background.gif);
         display: flex;
@@ -14,6 +16,8 @@
         
     }
     
+    /* container do quadro principal */
+
     #containergeral{
         display: flex;
         flex-direction: column;
@@ -28,6 +32,8 @@
     
     }
     
+/* container do h1 */
+
     #container1 {
         display: flex;
         margin-top: 2rem;
@@ -36,7 +42,8 @@
     
     
     }
-    
+    /* container seleção */
+
     #container2 {
         display: flex;
         flex-direction: column;
@@ -46,6 +53,8 @@
         height: 80%;
     
     }
+
+    /* alterações seleção cifra de cesar ou base64 */
     
     #opçoes{
         height: 3rem;
@@ -57,6 +66,8 @@
     
     }
     
+    /* mensagem a ser criptografada ou descriptografada */
+
     #mensagemPrincipal{
         height: 8rem;
         width: 20rem;
@@ -64,10 +75,12 @@
         font-family: 'Gemunu Libre', sans-serif;
         font-size: 1rem;
     
-    
     }
     
+    /*  numeros p/ seleção da cifra de cesar */
+
     #numeros{
+        display: none;
         height: 2rem;
         width: 15rem;
         font-size: 15px;
@@ -75,9 +88,10 @@
         font-weight: bold;
         text-align: center;
     
-    
     }
     
+/*  caixa da msg descriptografada */
+
     #mensagemCodificada{
         height: 8rem;
         width: 20rem;
@@ -87,10 +101,11 @@
     
     }
     
+/* alterações dos botões */
+
     .button{
         display: flex;
         flex-direction: column;
-    
     
     }
     
@@ -125,6 +140,13 @@
         font-family: 'Gemunu Libre', sans-serif;
         height: 2rem;
         width: 9rem;
+    }
+
+    p{
+        color: white;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
     }
 }
 
@@ -175,7 +197,6 @@
         margin-top: 0.2rem;
         width: 50%;
         height: 70%;
-        border: solid black;
     
     }
     
@@ -200,6 +221,7 @@
     }
     
     #numeros{
+        display: none;
         height: 2rem;
         width: 15rem;
         font-size: 15px;
@@ -330,6 +352,7 @@
 }
 
 #numeros{
+    display: none;
     height: 2rem;
     width: 15rem;
     font-size: 15px;
@@ -461,6 +484,7 @@
 }
 
 #numeros{
+    display: none;
     height: 2rem;
     width: 10rem;
     font-size: 15px;
